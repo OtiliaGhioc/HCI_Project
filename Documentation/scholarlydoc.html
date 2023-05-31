@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <title>Scholarly HTML</title>
+    <link rel="stylesheet" href="scholarlydoc.css">
+  </head>
+  <body prefix="schema: http://schema.org">
+    <header>
+      <div class="banner">
+        <img src="scholarly-img.PNG" width="227" height="50" alt="Scholarly HTML logo">
+        <div class="status">Community Draft</div>
+      </div>
+      <h1>Scholarly HTML</h1>
+    </header>
+
+    <ol>
+      <li>
+          <a href="#authors"> <span> </span>Autors</a>
+      </li>
+      <li>
+          <a href="#introduction"> <span></span>Introduction</a>
+          <ol>
+              <li><a href="#scope"> <span></span>Document purpose</a></li>
+              <li><a href="#conventions"> <span></span>Product purpose</a></li>
+              <li><a href="#productScope"><span></span>Product details</a></li>
+          </ol>
+      </li>
+      <li>
+          <a href="#generalDescription"><span></span>Description</a>
+          <ol>
+              <li><a href="#productFunctions"><span></span>Functionalities</a></li>
+              <li><a href="#classesAndCharacteristics"><span></span>Users</a></li>
+              <li><a href="#designConstrains"><span></span> Design patterns</a></li>
+          </ol>
+      </li>
+      <li>
+          <a href="#externalRequirements"><span></span>Interface</a>
+      </li>
+      <li>
+          <a href="#bibliography"><span></span>Bibliography</a>
+      </li>
+      <li>
+          <a href="#contributions"><span></span>Contributions</a>
+      </li>
+  </ol>
+  <article id = "article" typeof = "schema:ScholarlyArticle" resource = "#"> 
+      <section id="authors"  typeof="sa:AuthorsList"> 
+      <h2><span>1. </span>Authors</h2>
+      <p> 
+          Autors of this document:
+          
+           <li>Enasel Madalina</li>
+          <li>Ghioc Otilia Iuliana </li> 
+                  
+      </p>
+      </section>
+
+
+      <section typeof="sa:ScholarlyArticle" role="doc-introduction" >
+          <h2 id="introduction"> <span>2. </span>Introduction</h2>
+          <p> 
+            Since it was created in 1984 by Russian game inventor Alexey Pajitnov, Tetris is a timeless puzzle video game that has captured players' attention. Tetrominos, which are falling blocks made up of various arrangements of four squares, must be manipulated in order to form entire horizontal lines with no gaps. Tetrominos fall faster as the game goes on, forcing players to act quickly and wisely in order to avoid hitting the top of the playing area.</p>
+          <p>
+            Our new version of Tetris is not very different from the classic version, although it has evolved a lot compared to the first version of the game. It is available both on the mobile phone and on the PC.
+          </p>
+          <p>An important feature of this game is the diversity of players. The game has been modified so that on both accessible platforms, it can also be played by people with special needs, who face difficulties in finding games suitable for them.</p>
+          
+          <h3 id="scope"><span>2.1 </span>Document purpose</h3>
+          <p>  
+            This document includes all the relevant details on the project's description and creation, including interaction design patterns employed, user flow, affective elements, and emotion.
+          </p>
+          
+          <h3 id="conventions"><span>2.2 </span>Product purpose</h3>
+          <p>
+            This version of the game is designed to be accessible for people with impairments, such as those without arms or those who are color blind, in order to provide inclusive and accessible entertainment alternatives that cater to their specific needs and let them take advantage of gaming.
+          </p>
+          <p>
+            It provides voice input with commands for total control of the game, customization of the interface, use of buttons for the mobile application.
+          </p>
+          <p>It has 3 interaction types: using keyboard, voice input, buttons/screen gestures.</p>
+
+          <h3 id="productScope"><span>2.3 </span>Product details</h3>
+          <p>
+            The project was created respecting all the features and requirements specified in its description. A broad description of the project and as many details as possible
+            can be found by accessing the following link: </p>
+               <a href="https://profs.info.uaic.ro/~busaco/teach/courses/hci/projects/"><p>https://profs.info.uaic.ro/~busaco/teach/courses/hci/projects/</p></a>
+          
+  </section>
+
+  <section  typeof="sa:MaterialsAndMethods" role="doc-chapter" >
+      <h2 id="generalDescription"> <span>3. </span>Description</h2>
+
+      <h3 id= "productFunctions"> <span>3.1 </span>Functionalities</h3>
+      <p>  
+        Our Tetris application is an entertaining and captivating game created to offer users of different skill levels and backgrounds a peaceful and delightful experience. The app seeks to be accessible to a wide range of users, including those who are looking for a break from work, seeking strategic challenges, or overcoming limitations in their mobility, with a focus on simplicity, intuitive controls, and customizable features. Our Tetris app offers a fun gaming experience that can be enjoyed on both PCs and smartphones, whether you're a casual player, puzzle fanatic, or someone with specific accessibility needs.      </p>
+      <p>
+        To better understand the application, we can follow a user flow of a normal user:      </p>
+        <ol>
+          <li>
+            Upon launching the app, the user is presented with the landing page, which prominently displays three big buttons: "Play" and "Settings" and "Help".</li>
+          <li>
+            The user taps or clicks on the "Play" button to start a game immediately. This button provides a quick and straightforward way for users to jump into the gameplay without any additional steps.</li>
+          <li>
+            After selecting "Play," the app transitions to the game screen, where the Tetris grid and blocks are displayed.</li>
+          <li>
+            As the user successfully completes rows, they earn points, and the game progresses to higher levels, increasing the speed and difficulty of the falling blocks.</li>
+          <li>
+            If the stack of blocks reaches the top of the grid, the game ends, and the user's final score is displayed.</li>
+      <li>
+        If the user wants to customize their gaming experience or adjust specific preferences, they can tap or click on the "Settings" button on the landing page.</li>
+      
+      <li>
+        Upon selecting the "Settings" button, the user is taken to the settings menu, where they can configure various aspects of the game, such as choosing the control mode, adjusting the colors or themes, enabling or disabling sound effects.</li>
+      <li>
+        After saving the settings, the user is brought back to the landing page, where they can choose to start a new game by selecting the "Play" button or make further adjustments to the settings.</li>
+        <li>If it is the first time using the app and he does not know how to use it he can press button "Help".</li>
+        <li>In this frame he can learn about buttons, about different game modes and also how to play.</li>
+      
+
+      </ol>
+
+      <h3 id= "classesAndCharacteristics"> <span>3.2 </span>Users</h3>
+      <p>There are several types of users, so we will expose some user-flows below</p>
+      <ol>
+        <li>The user, with the assistance of another person, launches the Tetris app on their device.     </li>   <li>
+            The app's landing page appears, displaying two prominent buttons: "Play" and "Settings."    </li>    <li>
+                The helper taps or clicks on the "Settings" button on behalf of the user.     </li>   <li>
+                    The app transitions to the settings menu, where various customization options are available. The helper explores the settings menu and locates the control mode options. They select the voice input mode on behalf of the user.</li>
+        <li>
+            The app returns to the landing page, displaying the updated settings.</li>
+    <li>
+        The user, with the assistance of the helper, provides voice commands to control the game. For example, they say "left" or "right" to move the falling blocks accordingly..</li>
+    
+    <li>
+        The user continues to provide voice commands to manipulate the blocks, aiming to complete rows and achieve a high score.</li>
+    <li>
+        If the stack of blocks reaches the top of the grid, the game ends, and the user's final score is displayed.</li>
+
+    
+
+    </ol>
+
+      <h3 id= "designConstrains"> <span>3.3</span> Design patterns </h3>
+      <p>      
+        We will divide the design patterns according to the frame in which they are present
+      </p>
+      <ol>
+        <li>Gameplay Frame:</li>
+        <p>Grid Layout: Games like Tetris frequently use the grid layout as a design pattern. It creates a grid-like layout in the playing area so that the player can position and control the falling blocks.</p>
+        <br>
+        <p>Command Buttons: The settings and back buttons act as command buttons, enabling users to access more features or go back to a previous screen. To make them instantly recognizable and interactive, these buttons often have distinctive visual style. Well-placed and easily accessible command buttons contribute to a positive user experience.</p>
+        <br>
+        <p>Gaming Controls: The user can interact with the falling bricks and change their places using gaming controls like arrow buttons or swipe gestures.</p>
+
+
+        <li>Settings Frame:</li>
+        <p>List View: The settings frame has a list view design pattern to present various options and configurations to the user. Each setting is displayed as an item in the list, allowing the user to select their desired preferences. The list view helps users quickly navigate through settings, enhancing efficiency and reducing potential frustration.</p>
+        <br>
+        <p>Radio Buttons: Radio buttons are used to represent the available game modes. Radio buttons allow the user to select a single option from a list.</p>
+        <br>
+        <p>Color Selection: Providing users a set of color options to choose from.</p>
+        <br>
+        <p>Live Preview: The preview section that displays how the selected color would look in the game aligns with this pattern. Offering a variety of choices can assist users in creating an aesthetically pleasing and engaging experience in the app because colors can have psychological associations and influence mood.</p>
+        <br>
+        <p>Horizontal Scroll: The horizontal scroll is used to control music and sound.</p>
+    </ol>
+
+    <p>In addition to design patterns, a good user experience is also provided by the variety of game modes: monochromatic, voice input, buttons input, slow mode. Providing a voice input mode for users with disabilities, such as those without arms, can create feelings of inclusivity, empowerment, and independence. It allows them to overcome physical limitations and participate in the app's activities like any other user. It ia the same for those who are color blind or who does not know how to use a smartphone.</p>
+      
+  </section>
+
+  <section  typeof="sa:MaterialsAndMethods" role="doc-chapter">
+    <h2 id="externalRequirements"><span>4. </span>Interface</h2>
+    <p>A normal user-flow using the desktop app:</p>
+    <h4>•	Landing Page </h4>
+    <img src="desktop-normal-mainframe.png" alt="img1">
+    <h4>•	Press Start </h4>
+      <img src="desktop-normal-start.png" alt="img2">
+
+      <h4>•	Settings </h4>
+      <img src="desktop-normal-set.png" alt="img3">
+
+      <h4>•	From Settings->Modes </h4>   
+      <img src="desktop-normal-modesh.png" alt="img4">
+
+      <h4>•	From Settings->Customize</h4>   
+      <img src="desktop-normal-custom.png" alt="img5">
+
+      <h4>•	From Modes choosing buttons->Play</h4>   
+      <img src="desktop-normal-buttons.png" alt="img7">
+
+      <h4>•	From Main Frame->Help</h4>   
+      <img src="desktop-normal-help.png" alt="img7">
+      <h4>•	From Help->Buttons</h4>   
+      <img src="desktop-normal-help-buttons.png" alt="img7">
+      <h4>•	From Help->Modes</h4>   
+      <img src="desktop-normal-help-modes.png" alt="img7">
+      <h4>•	From Help->How to</h4>   
+      <img src="desktop-normal-howto.png" alt="img7">
+      
+    
+  </section>
+
+  <section typeof="sa:ReferenceList" id="referinte" role="doc-bibliography">   
+      <h2 id="bibliography"><span>5. </span>Bibliography</h3>
+          Referințele care au fost folosite pentru crearea acestui document au fost:
+          <a href="https://w3c.github.io/scholarly-html/"><p>•	https://w3c.github.io/scholarly-html/</p></a>
+          <a href="http://pxdotpt.com/hci"><p>•	http://pxdotpt.com/hci </p></a>
+          <a href="https://www.figma.com"><p>•	https://www.figma.com</p></a>
+  </section>
+
+  <section typeof="sa:ReferenceList" id="referinte" role="doc-bibliography">   
+      <h2 id="contributions"><span>6. </span>Contributions:</h3>
+          <p>•	Enasel Madalina:</p>
+          <p>-  Game interface prototypes</p>
+          <p>-  Personas: 2 Secondary</p>
+          <p>•	Ghioc Iuliana-Otilia :</p>
+          <p>-	Scholarly Documentation</p>
+          <p>-	Game prototypes</p>
+          <p>-	Personas: Primary, and 2 Secondary</p>
+  </section>
+
+  </article>
+
+
+  </body>
+</html>
